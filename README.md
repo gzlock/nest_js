@@ -1,1 +1,1 @@
-##### `src/admin/user/user.controller.ts`的确需要写绝对路径，有点麻烦
+##### [`src/admin/user/user.controller.ts`](src/admin/user/user.controller.ts)的确需要写绝对路径，有点麻烦
