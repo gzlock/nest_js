@@ -1,9 +1,9 @@
 import { Controller, Get } from '@nestjs/common'
 
-@Controller('admin')
-export class AdminController {
+@Controller('/')
+export class IndexController {
   @Get('/')
   index (): string {
-    return '/admin'
+    return '/index.controller.ts'
   }
 }

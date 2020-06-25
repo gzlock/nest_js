@@ -3,7 +3,7 @@ import { IndexModule } from './index.module'
 
 async function bootstrap () {
   const app = await NestFactory.create(IndexModule)
-  app.setGlobalPrefix('/')
+  // app.setGlobalPrefix('/')
   await app.listen(3000)
 }
 
